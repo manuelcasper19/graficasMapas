@@ -1,30 +1,4 @@
-<!-- 
 
-    <div class="home">
-        <div class="interno">
-        <mat-selection-list #shoes [multiple]="false">
-            <mat-list-option>
-              <a routerLink="graficas">
-                 Ir a las Graficas
-              </a>
-            </mat-list-option>
-            <mat-list-option>
-                <a routerLink="mapas">
-                 Ir a los Mapas
-                </a>
-              </mat-list-option>
-          </mat-selection-list>
-        </div>
-    </div> -->
-
-    <router-outlet></router-outlet>
-
-    
-   
-
-
-
-<!-- 
 
 <mat-sidenav-container fullscreen>
     <mat-sidenav #sidevav mode="push">
@@ -40,7 +14,7 @@
         </mat-toolbar>
 
         <mat-nav-list>
-            <a routerLink="graficas/barras"
+            <a routerLink="./barras"
                mat-list-item
                (click)="sidevav.toggle()">
        
@@ -48,14 +22,14 @@
               
                <span>Grafica de Barras</span>
             </a>
-            <a routerLink="graficas/donas"
+            <a routerLink="./donas"
             mat-list-item
             (click)="sidevav.toggle()">
                 <mat-icon mat-list-icon>shield</mat-icon>
                 
                 <span>Grafica de Dona</span>
             </a>
-         <a routerLink="graficas/todas"
+         <a routerLink="./todas"
          mat-list-item
          (click)="sidevav.toggle()">
              <mat-icon mat-list-icon>content_paste</mat-icon>
@@ -63,7 +37,7 @@
          <span>Todas las graficas</span>
       </a>
 
-            <a routerLink="graficas/rendimiento-individual"
+            <a routerLink="./rendimiento-individual"
                mat-list-item
                (click)="sidevav.toggle()">
 
@@ -72,14 +46,6 @@
             <span>Rendimiento individual</span>
             </a>
 
-            <a routerLink="mapas/marcadores"
-                mat-list-item
-                (click)="sidevav.toggle()">
-
-            <mat-icon mat-list-icon>place</mat-icon>
-            
-            <span>Mapas</span>
-            </a>
         </mat-nav-list>
 
 
@@ -94,7 +60,7 @@
         </button>
         <span class="spacer"></span>
         <button mat-button
-                routerLink="mapas/marcadores"
+                routerLink="../mapas/marcadores"
                 >
 
                
@@ -109,6 +75,6 @@
         <router-outlet></router-outlet>
         </div>
 
-</mat-sidenav-container> -->
+</mat-sidenav-container>
 
 

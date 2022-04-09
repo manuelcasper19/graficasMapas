@@ -1,0 +1,39 @@
+<h1>Rendimiento</h1>
+<mat-divider></mat-divider>
+
+<mat-grid-list cols="1" rowHeight="200px"
+               *ngIf="ventasVendedores.length === 0; else divGraficaIndividual">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  
+  </mat-grid-list>
+
+  <ng-template #divGraficaIndividual>
+
+    <div fxLayout="row wrap"
+     fxLayoutAlign="start"
+     fxLayout.xs="column"
+     fxLayoutGap="30px">
+
+
+ 
+     <div fxFlex="46"         
+          *ngFor="let vendedor of ventasVendedores; let i = index">         
+    
+          <div style="display: block">
+            <canvas baseChart
+              [data]="vendedor"
+              [options]="barChartOptions"          
+              [type]="barChartType"
+              >
+            </canvas>
+          </div>          
+          
+    </div>
+   
+    </div>
+
+  </ng-template>
+
+  

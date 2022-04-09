@@ -1,0 +1,196 @@
+{
+   "vendedores": [
+        {
+          "id" : 1, 
+          "Vendedor":"Stiven Hernandez",
+          "meses" : 
+                
+                    {
+                    "Enero":30000,
+                    "Febrero":10000,
+                    "Marzo": 2000,
+                    "Abril": 23000,
+                    "Mayo": 2000,
+                    "Junio":20000,
+                    "Julio":2220,
+                    "Agosto":200023,
+                    "Septiembre":20023,
+                    "Octubre":2003,
+                    "Noviembre":10002,
+                    "Diciembre":202020
+                    }
+                
+        },
+        {
+          "id" : 2, 
+         "Vendedor":"Lina rave",
+         "meses" : 
+             {
+                "Enero": 1020,
+                "Febrero": 20293,
+                 "Marzo":20393,
+                 "Abril":2039,
+                 "Mayo":1292,
+                 "Junio":203939,
+                 "Julio":29330,
+                 "Agosto":3039,
+                 "Septiembre":2093,
+                 "Octubre":20393,
+                 "Noviembre":20393,
+                 "Diciembre":20393
+         }
+
+        },
+        {   "id" : 3, 
+            "Vendedor":"Eduardo Rave",
+            "meses" : {
+                "Enero":33,
+                "Febrero":2,
+                "Marzo":33,
+                "Abril":3339,
+                "Mayo":922,
+                "Junio":3993,
+                "Julio":39492,
+                "Agosto":29203,
+                "Septiembre":2993,
+                "Octubre":394949,
+                "Noviembre":39493,
+                "Diciembre":39939
+            }
+        
+        },
+        {
+            "id" : 4, 
+            "Vendedor":"Hugo Hernandez",
+            "meses" : {
+                "Enero":10220,
+                "Febrero":2033,
+                "Marzo":209393,
+                "Abril":929292,
+                "Mayo":99292,
+                "Junio":29292,
+                "Julio":92929,
+                "Agosto":29292,
+                "Septiembre":4949,
+                "Octubre":4929,
+                "Noviembre":2933,
+                "Diciembre":9922
+            }
+        
+        },
+        {
+            "id" : 5, 
+            "Vendedor":"Luisa Pabuena",
+            "meses" : {
+                "Enero":2902,
+                "Febrero":202,
+                "Marzo":29292,
+                "Abril":4030,
+                "Mayo":202020,
+                "Junio":202020,
+                "Julio":393939,
+                "Agosto":30393,
+                "Septiembre":39393,
+                "Octubre":39292,
+                "Noviembre":2293929,
+                "Diciembre":99393
+            }
+           
+        },
+        {
+            "id" : 6, 
+            "Vendedor":"Martha Mazo",
+            "meses" : {
+                "Enero": 2020,
+                "Febrero":202,
+                "Marzo":3300,
+                "Abril":20303,
+                "Mayo":300230,
+                "Junio":302020,
+                "Julio":303030,
+                "Agosto":3000393,
+                "Septiembre":339393,
+                "Octubre":3393,
+                "Noviembre":89329,
+                "Diciembre" : 39939
+            }
+          
+        },
+        {
+            "id" : 7, 
+            "Vendedor" : "Mariela rave",
+            "meses" : {
+                "Enero" : 202029,
+            "Febrero" : 39320,
+            "Marzo" : 39393,
+            "Abril" : 3939,
+            "Mayo" : 340949,
+            "Junio" : 39933,
+            "Julio" : 93939,
+            "Agosto" : 3993,
+            "Septiembre" : 93939,
+            "Octubre" : 93939,
+            "Noviembre" : 93939,
+            "Diciembre" : 93939
+            }
+            
+        },
+        {
+            "id" : 8, 
+            "Vendedor" : "Luis Hernandez",
+            "meses" : {
+                "Enero" : 191919,
+            "Febrero" : 2929,
+            "Marzo" : 393939,
+            "Abril" : 3993,
+            "Mayo" : 9393,
+            "Junio" : 399,
+            "Julio" : 292929,
+            "Agosto" : 949494,
+            "Septiembre" : 93939,
+            "Octubre" : 2922,
+            "Noviembre" : 9292,
+            "Diciembre" : 29292
+            }
+            },
+            {
+                "id" : 9, 
+                "Vendedor":"Felipe Pabuena",
+                "meses" : 
+                      
+                          {
+                          "Enero":30040,
+                          "Febrero":100040,
+                          "Marzo": 20040,
+                          "Abril": 230400,
+                          "Mayo": 20400,
+                          "Junio":200400,
+                          "Julio":22240,
+                          "Agosto":200023,
+                          "Septiembre":20023,
+                          "Octubre":20043,
+                          "Noviembre":10002,
+                          "Diciembre":202020
+                          }
+                      
+              }
+        ],
+
+        "meses": {
+            "Enero": 1232,
+            "Febrero":20003,
+            "Marzo":13433,
+            "Abril":90021,
+            "Mayo":1002,
+            "Junio":40011,
+            "Julio":50322,
+            "Agosto":33221,
+            "Septiembre":122322,
+            "Octubre":90011,
+            "Noviembre":130122,
+            "Diciembre":153323
+            }
+            
+
+        
+}

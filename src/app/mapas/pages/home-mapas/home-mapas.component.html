@@ -1,0 +1,62 @@
+
+
+
+<mat-sidenav-container fullscreen>
+    <mat-sidenav #sidevav mode="push">
+        <mat-toolbar color="primary">
+            <span>Menu</span>
+            <span class="spacer"></span>
+            <button mat-icon-button
+                    (click)="sidevav.toggle()">
+
+                    <mat-icon>menu</mat-icon>
+
+            </button>
+        </mat-toolbar>
+
+        <mat-nav-list>     
+   
+           <a routerLink="../mapas/marcadores"
+                mat-list-item
+                (click)="sidevav.toggle()">
+
+            <mat-icon mat-list-icon>place</mat-icon>
+            
+            <span>Mapas</span>
+            </a>
+        </mat-nav-list>
+
+
+    </mat-sidenav>
+
+
+    <mat-toolbar color="primary">
+        <button mat-icon-button
+                (click)="sidevav.toggle()"
+        >
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="spacer"></span>
+        <button mat-button
+                routerLink="/graficas/barras"
+                >
+
+               
+            Ir a graficas
+        </button>
+
+    </mat-toolbar>
+
+ 
+
+      
+           
+        <router-outlet></router-outlet>
+        
+        
+
+</mat-sidenav-container>
+
+
+
+

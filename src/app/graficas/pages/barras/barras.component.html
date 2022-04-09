@@ -1,0 +1,39 @@
+<h1>Barras</h1>
+<mat-divider></mat-divider>
+
+<mat-grid-list cols="1" rowHeight="200px"
+               *ngIf="barChartData.datasets[0].data.length === 0; else divGraficaBarras">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  
+  </mat-grid-list>
+
+
+ <ng-template #divGraficaBarras>
+  
+<div fxLayout="row"
+     fxLayoutAlign="center"
+     fxLayout.xs="column"
+     fxLayoutGap="30px">
+
+   
+
+     <div fxFlex="50%">
+    
+        <app-barras-grafica [barChartData]="barChartData"></app-barras-grafica>
+          
+    </div>
+
+    <div fxFlex="50%">
+        <app-barras-grafica [barChartData]="barChartData"
+                            [barChartOptions]="barChartOptions"></app-barras-grafica>
+    </div>
+</div>
+
+
+
+</ng-template>
+
+
+

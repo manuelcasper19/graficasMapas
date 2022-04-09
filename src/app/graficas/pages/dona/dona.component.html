@@ -1,0 +1,31 @@
+<h1>Donas</h1>
+<mat-divider></mat-divider>
+
+<mat-grid-list cols="1" rowHeight="200px"
+               *ngIf="doughnutChartData.datasets[0].data.length === 0; else divGraficaDonas">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  
+  </mat-grid-list>
+
+  <ng-template #divGraficaDonas>
+  
+<div fxLayout="row"
+     fxLayout.xs="column">
+
+     <div fxFlex="50"
+          
+          >
+          <app-donas-grafica [doughnutChartData]="doughnutChartData"></app-donas-grafica>
+
+     </div>
+     <div fxFlex="50"
+          
+     >
+     <app-donas-grafica ></app-donas-grafica>
+
+</div>
+
+</div>
+</ng-template>
